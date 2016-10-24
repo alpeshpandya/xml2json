@@ -1,0 +1,26 @@
+{
+  "name": "xml2json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/test-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "file-system": "^2.2.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.6.1",
+    "request": "^2.75.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.0"
+  }
+}
